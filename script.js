@@ -13,8 +13,6 @@ function sendInputValue() {
     list_item = createListItem(list_text);
     console.log(list_item);
     list_display.appendChild(list_item);
-    // console.log(list_item);
-    // addItemToList(list_item);
   } else {
     alert('Please type in something!');
   }
@@ -22,8 +20,6 @@ function sendInputValue() {
 }
 
 function addItemToList(list_item) {
-  // console.log(todo_list);
-  // console.log(list_display.innerHTML);
 }
 
 function createListItem(htmlcode) {
